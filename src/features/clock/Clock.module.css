@@ -1,0 +1,49 @@
+.clock {
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+.clockHand {
+  width: 800px;
+  height: 800px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 400px;
+}
+
+.hourHandHead {
+  width: 24px;
+  height: 240px;
+  background-color: green;
+}
+
+.hourHandTail {
+  width: 24px;
+  height: 240px;
+}
+
+.minuteHandHead {
+  width: 10px;
+  height: 360px;
+  background-color: red;
+}
+
+.minuteHandTail {
+  width: 10px;
+  height: 360px;
+}
+
+.secondHandHead {
+  width: 4px;
+  height: 400px;
+  background-color: salmon;
+}
+
+.secondHandTail {
+  width: 4px;
+  height: 400px;
+}
