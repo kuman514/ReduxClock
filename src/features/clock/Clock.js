@@ -1,6 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import styles from './Clock.module.css';
+
+import { ClockFace } from './ClockFace';
 import { ClockHourHand } from './ClockHourHand';
 import { ClockMinuteHand } from './ClockMinuteHand';
 import { ClockSecondHand } from './ClockSecondHand';
@@ -28,6 +30,7 @@ export function Clock() {
         onMouseHover(dispatchMousePos, event, false);
       }}
     >
+      <ClockFace />
       <ClockHourHand />
       <ClockMinuteHand />
       <ClockSecondHand />

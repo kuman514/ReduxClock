@@ -4,15 +4,18 @@
   border: 1px solid black;
 }
 
-.clockHand {
+.clockFace, .clockHand {
   width: 800px;
   height: 800px;
   position: fixed;
+  border-radius: 400px;
+}
+
+.clockHand {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  border-radius: 400px;
+  justify-content: center;
 }
 
 .hourHandHead {
