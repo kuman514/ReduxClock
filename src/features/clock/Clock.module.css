@@ -11,6 +11,11 @@
   border-radius: 400px;
 }
 
+.clockFace {
+  font-size: calc(10px + 4vmin);
+  font-weight: bold;
+}
+
 .clockHand {
   display: flex;
   flex-direction: column;

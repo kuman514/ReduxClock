@@ -16,7 +16,7 @@ export function ClockFace() {
                   WebkitTransform: `rotate(${30 * item}deg)`
                 }}
               >
-                |
+                { (item === 0 ? 12 : item) }
               </div>
             );
           })
